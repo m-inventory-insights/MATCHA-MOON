@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4eb">
+  <meta name="description" content="اكتشفي عالم MATCHA MOON — ماتشا مختارة، نكهات مميزة، وأدوات تحضير تمنح يومك لحظة من الهدوء.">
+  <title>MATCHA MOON | لحظتك الخضراء</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span class="announcement-dot"></span> لحظات صغيرة… ومزاج أجمل <span class="announcement-en">A LITTLE GREEN MOMENT</span></div>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false"><span></span><span></span><span></span></button>
+      <a class="brand" href="#top" aria-label="MATCHA MOON الصفحة الرئيسية">
+        <img src="assets/matcha-moon-logo.jpg" alt="شعار MATCHA MOON">
+        <span class="brand-wordmark"><strong>MATCHA MOON</strong><small>YOUR DAILY MATCHA MOMENT</small></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="القائمة الرئيسية">
+        <a class="nav-link active" href="#top">الرئيسية</a>
+        <a class="nav-link" href="#products">المنتجات</a>
+        <a class="nav-link" href="#categories">التصنيفات</a>
+        <a class="nav-link" href="#about">من نحن</a>
+        <a class="nav-link" href="#contact">تواصلي معنا</a>
+      </nav>
+      <button class="cart-trigger" id="openCart" aria-label="فتح سلة المشتريات">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 1.9-1.4L21 8H6"/><circle cx="9.5" cy="19.5" r="1.2"/><circle cx="17.5" cy="19.5" r="1.2"/></svg>
+        <span>السلة</span><b id="cartCount" class="cart-count">0</b>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> طقوسك اليومية بنكهة خضراء</div>
+        <h1 id="heroTitle">خذي نفسًا…<br><em>واختاري لحظتك.</em></h1>
+        <p class="hero-description">من أول رشفة إلى آخر لحظة هدوء، اكتشفي ماتشا مختارة بعناية ونكهات تجعل روتينك اليومي أكثر جمالًا.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#products">تسوّقي منتجاتنا <span class="button-arrow">←</span></a>
+          <a class="text-link" href="#about">اكتشفي حكايتنا <span>↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-leaf">✳</span><span>جودة مختارة</span><i></i><span>نكهات تبعث البهجة</span><i></i><span>طقوس تستحقينها</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-frame"><img src="assets/matcha-latte.jpg" alt="ماتشا لاتيه مثلج من MATCHA MOON" fetchpriority="high"></div>
+        <div class="hero-stamp"><span class="stamp-star">✳</span><span>MAKE ROOM<br>FOR CALM</span><span class="stamp-moon">☾</span></div>
+        <div class="hero-caption"><span class="caption-spark">✦</span><div><strong>Matcha moment</strong><small>هدوء في كل رشفة</small></div></div>
+        <div class="decor-circle decor-circle-one"></div><div class="decor-circle decor-circle-two"></div>
+      </div>
+    </section>
+
+    <section class="promise-strip" aria-label="مميزات المتجر">
+      <div class="promise-item"><span class="promise-icon">✿</span><div><strong>اختيار بعناية</strong><small>منتجات نحبها ونثق بها</small></div></div>
+      <div class="promise-item"><span class="promise-icon">☾</span><div><strong>لحظتك الخاصة</strong><small>طقوس بسيطة كل يوم</small></div></div>
+      <div class="promise-item"><span class="promise-icon">❋</span><div><strong>نكهات مميزة</strong><small>اختيارات تناسب ذوقك</small></div></div>
+    </section>
+
+    <section class="products-section section-shell" id="products">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> اختياراتنا لكِ</div><h2>تسوّقي <em>المفضّلات</em></h2><p>كل ما تحتاجينه لتصنعي لحظتك الخضراء، بطريقتك.</p></div>
+        <a class="text-link desktop-link" href="#categories">تصفّحي حسب الفئة <span>←</span></a>
+      </div>
+      <div class="product-toolbar">
+        <div class="filter-tabs" role="group" aria-label="تصفية المنتجات">
+          <button class="filter-tab selected" data-filter="all" aria-pressed="true">جميع المنتجات <span>06</span></button>
+          <button class="filter-tab" data-filter="powder" aria-pressed="false">مسحوق الماتشا</button>
+          <button class="filter-tab" data-filter="flavors" aria-pressed="false">نكهات الماتشا</button>
+          <button class="filter-tab" data-filter="tools" aria-pressed="false">أدوات التحضير</button>
+        </div>
+        <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m15.5 15.5 4.2 4.2"/></svg><input id="productSearch" type="search" placeholder="ابحثي عن منتج…" aria-label="ابحثي عن منتج"></label>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite">
+        <article class="product-card" data-id="classic" data-category="powder" data-name="classic matcha مسحوق ماتشا كلاسيكي">
+          <div class="product-image"><img src="assets/classic-matcha.jpg" alt="عبوة مسحوق الماتشا الكلاسيكي" loading="lazy"><span class="product-tag">اختيارنا</span><button class="quick-add" data-add="classic" aria-label="أضيفي مسحوق الماتشا الكلاسيكي إلى السلة">+</button></div>
+          <div class="product-info"><div class="product-kicker">PURE & CLASSIC</div><h3>Classic Matcha</h3><p>مسحوق ماتشا كلاسيكي بطابع أصيل ولون أخضر غني.</p><div class="product-bottom"><span class="price">45 <small>ر.س</small></span><button class="add-button" data-add="classic">أضيفي إلى السلة <span>＋</span></button></div></div>
+        </article>
+        <article class="product-card" data-id="strawberry" data-category="flavors" data-name="strawberry matcha ماتشا الفراولة">
+          <div class="product-image"><img src="assets/matcha-strawberry.jpg" alt="مشروب ماتشا بالفراولة" loading="lazy"><span class="product-tag tag-pink">نكهة فاكهية</span><button class="quick-add" data-add="strawberry" aria-label="أضيفي ماتشا الفراولة إلى السلة">+</button></div>
+          <div class="product-info"><div class="product-kicker">BERRY BLISS</div><h3>Strawberry Matcha</h3><p>مزيج منعش يجمع بين الماتشا والفراولة بطعم لطيف.</p><div class="product-bottom"><span class="price">28 <small>ر.س</small></span><button class="add-button" data-add="strawberry">أضيفي إلى السلة <span>＋</span></button></div></div>
+        </article>
+        <article class="product-card" data-id="vanilla" data-category="flavors" data-name="vanilla matcha ماتشا بالفانيلا">
+          <div class="product-image"><img src="assets/vanilla-matcha.jpg" alt="مشروب ماتشا بالفانيلا" loading="lazy"><span class="product-tag">ناعم ولطيف</span><button class="quick-add" data-add="vanilla" aria-label="أضيفي ماتشا الفانيلا إلى السلة">+</button></div>
+          <div class="product-info"><div class="product-kicker">A TOUCH OF VANILLA</div><h3>Vanilla Matcha</h3><p>نكهة فانيلا ناعمة توازن مذاق الماتشا الغني.</p><div class="product-bottom"><span class="price">30 <small>ر.س</small></span><button class="add-button" data-add="vanilla">أضيفي إلى السلة <span>＋</span></button></div></div>
+        </article>
+        <article class="product-card" data-id="latte" data-category="flavors" data-name="matcha latte ماتشا لاتيه">
+          <div class="product-image"><img src="assets/matcha-latte.jpg" alt="كوب ماتشا لاتيه مثلج" loading="lazy"><span class="product-tag tag-dark">الأكثر انتعاشًا</span><button class="quick-add" data-add="latte" aria-label="أضيفي ماتشا لاتيه إلى السلة">+</button></div>
+          <div class="product-info"><div class="product-kicker">YOUR DAILY LATTE</div><h3>Matcha Latte</h3><p>لاتيه كريمي بطبقات خضراء جميلة ولحظة مزاج مختلفة.</p><div class="product-bottom"><span class="price">25 <small>ر.س</small></span><button class="add-button" data-add="latte">أضيفي إلى السلة <span>＋</span></button></div></div>
+        </article>
+        <article class="product-card" data-id="starter" data-category="tools" data-name="matcha starter kit مجموعة تحضير الماتشا">
+          <div class="product-image"><img src="assets/starter-kit.jpg" alt="مجموعة تحضير الماتشا المتكاملة" loading="lazy"><span class="product-tag">هدية مثالية</span><button class="quick-add" data-add="starter" aria-label="أضيفي مجموعة تحضير الماتشا إلى السلة">+</button></div>
+          <div class="product-info"><div class="product-kicker">THE PERFECT RITUAL</div><h3>Matcha Starter Kit</h3><p>مجموعة بداية لتجربة تحضير ماتشا خاصة في منزلك.</p><div class="product-bottom"><span class="price">89 <small>ر.س</small></span><button class="add-button" data-add="starter">أضيفي إلى السلة <span>＋</span></button></div></div>
+        </article>
+        <article class="product-card" data-id="whisk" data-category="tools" data-name="matcha whisk أداة خفق الماتشا">
+          <div class="product-image"><img src="assets/matcha-whisk.jpg" alt="أداة خفق الماتشا المصنوعة من الخيزران" loading="lazy"><span class="product-tag">لمسة تقليدية</span><button class="quick-add" data-add="whisk" aria-label="أضيفي أداة خفق الماتشا إلى السلة">+</button></div>
+          <div class="product-info"><div class="product-kicker">WHISK IT SLOW</div><h3>Matcha Whisk</h3><p>أداة خفق تقليدية تساعدك على تحضير قوام ناعم ورغوي.</p><div class="product-bottom"><span class="price">35 <small>ر.س</small></span><button class="add-button" data-add="whisk">أضيفي إلى السلة <span>＋</span></button></div></div>
+        </article>
+      </div>
+      <div class="no-results" id="noResults" hidden>ما لقينا منتجات مطابقة. جرّبي كلمة بحث أخرى.</div>
+    </section>
+
+    <section class="categories-section" id="categories">
+      <div class="section-shell">
+        <div class="section-heading categories-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> اختاري ما يناسبك</div><h2>عالم الماتشا، <em>على ذوقك</em></h2></div><p>ابدئي من المكوّن الأساسي، جرّبي نكهة جديدة، أو جهّزي ركن الماتشا الخاص بكِ.</p></div>
+        <div class="category-grid">
+          <button class="category-card category-powder" data-category-jump="powder"><span class="category-number">01 / POWDER</span><span class="category-symbol">✳</span><div><h3>مسحوق الماتشا</h3><p>الأصل الذي تبدأ منه الحكاية.</p><span class="category-link">اكتشفي المنتجات <b>←</b></span></div><span class="category-art leaf-art">❧</span></button>
+          <button class="category-card category-flavors" data-category-jump="flavors"><span class="category-number">02 / FLAVORS</span><span class="category-symbol">✿</span><div><h3>نكهات الماتشا</h3><p>مزيج لذيذ يضيف لونًا ليومك.</p><span class="category-link">اكتشفي النكهات <b>←</b></span></div><span class="category-art berry-art">✺</span></button>
+          <button class="category-card category-tools" data-category-jump="tools"><span class="category-number">03 / TOOLS</span><span class="category-symbol">⌁</span><div><h3>أدوات ومجموعات التحضير</h3><p>طقوسك الجميلة تبدأ من هنا.</p><span class="category-link">جهّزي ركنك <b>←</b></span></div><span class="category-art bowl-art">◡</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-shell" id="about">
+      <div class="about-image"><img src="assets/starter-kit.jpg" alt="أدوات تحضير الماتشا من MATCHA MOON" loading="lazy"><div class="about-image-label"><span>MM</span><small>Slow down<br>and sip.</small></div></div>
+      <div class="about-copy"><div class="eyebrow"><span class="eyebrow-line"></span> قصتنا في كل رشفة</div><h2>مساحة صغيرة<br>لـ <em>هدوء أكبر.</em></h2><p>في MATCHA MOON، نؤمن بأن كل كوب ماتشا هو لحظة من الهدوء والمتعة. نسعى لتقديم منتجات ماتشا متنوعة تجمع بين الجودة والنكهة والتجربة المميزة، لنمنح عملاءنا لحظات جميلة في كل يوم.</p><p>نحب التفاصيل البسيطة؛ لون أخضر يريح العين، مذاق يستحق التمهّل، وطقس يومي يعيدكِ إلى نفسك.</p><a class="button button-outline" href="#products">اكتشفي مجموعتنا <span class="button-arrow">←</span></a><div class="about-signature">A little ritual, a brighter day <span>✳</span></div></div>
+    </section>
+
+    <section class="newsletter-band"><div class="newsletter-decoration">☾</div><div><span class="newsletter-kicker">A NOTE FROM MATCHA MOON</span><h2>خلي لحظتك الخضراء أقرب.</h2><p>تابعي جديد النكهات والمنتجات، وخلي أيامك مليانة لحظات جميلة.</p></div><a href="#contact" class="button button-cream">خلّينا على تواصل <span>←</span></a></section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="contact-intro"><div class="eyebrow"><span class="eyebrow-line"></span> يسعدنا نسمع منكِ</div><h2>عندك سؤال؟<br><em>نحن هنا.</em></h2><p>شارِكينا رأيك أو اسألي عن منتجاتنا. يسعدنا أن نكون جزءًا من لحظتك اليومية.</p><div class="contact-detail"><span class="contact-detail-icon">✉</span><div><small>راسلينا عبر النموذج</small><strong>نقرأ رسالتك بكل اهتمام</strong></div></div><div class="contact-detail"><span class="contact-detail-icon">☾</span><div><small>MATCHA MOON</small><strong>لحظتك الخضراء تبدأ هنا</strong></div></div></div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-heading"><span>LET'S TALK</span><h3>اكتبي لنا رسالة</h3></div>
+        <label for="contactName">الاسم</label><input id="contactName" name="name" type="text" placeholder="اسمك الكريم" required minlength="2">
+        <label for="contactEmail">البريد الإلكتروني</label><input id="contactEmail" name="email" type="email" placeholder="name@example.com" required>
+        <label for="contactMessage">رسالتك</label><textarea id="contactMessage" name="message" rows="4" placeholder="كيف نقدر نساعدك؟" required minlength="5"></textarea>
+        <button type="submit" class="button button-primary form-submit">إرسال الرسالة <span>←</span></button>
+        <p class="form-feedback" id="contactFeedback" role="status" hidden></p>
+        <small class="form-note">هذا نموذج تجريبي للمشروع، ولن تُرسل البيانات إلى خادم.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main section-shell"><div class="footer-brand"><a class="brand footer-brand-link" href="#top"><img src="assets/matcha-moon-logo.jpg" alt=""><span class="brand-wordmark"><strong>MATCHA MOON</strong><small>YOUR DAILY MATCHA MOMENT</small></span></a><p>لحظة هدوء في عالم سريع. حضّري كوبك، وخذي وقتك.</p></div><div class="footer-links"><strong>تصفّحي</strong><a href="#products">المنتجات</a><a href="#categories">التصنيفات</a><a href="#about">من نحن</a></div><div class="footer-links"><strong>نحن هنا</strong><a href="#contact">تواصلي معنا</a><a href="#top">العودة للأعلى ↑</a></div><div class="footer-phrase"><span>☾</span><p>Good Matcha.<br>Better Days.</p></div></div>
+    <div class="footer-bottom section-shell"><span>© <span id="year"></span> MATCHA MOON. جميع الحقوق محفوظة.</span><span>مشروع طلابي — مرام · نوره · جوري</span><span class="footer-made">صُنع بحب <b>✳</b></span></div>
+  </footer>
+
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="سلة المشتريات" aria-hidden="true">
+    <div class="cart-header"><div><span class="cart-overline">YOUR LITTLE PICKS</span><h2>سلة المشتريات <span id="drawerCount">(0)</span></h2></div><button class="close-cart" id="closeCart" aria-label="إغلاق السلة">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart"><span>☾</span><h3>سلتك تنتظر لحظتك الأولى</h3><p>اختاري المنتجات التي تحبينها، وسنجمعها لكِ هنا.</p><button class="button button-primary" id="browseProducts">تسوّقي الآن</button></div></div>
+    <div class="cart-footer" id="cartFooter" hidden><div class="cart-total-row"><span>إجمالي المشتريات</span><strong id="cartTotal">0 ر.س</strong></div><p class="cart-shipping-note">ملاحظة: السعر المعروض هو إجمالي المنتجات قبل أي رسوم شحن.</p><button class="button button-primary checkout-button" id="checkoutButton">إتمام الطلب <span>←</span></button><button class="continue-shopping" id="continueShopping">متابعة التسوق</button></div>
+  </aside>
+
+  <div class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" aria-hidden="true">
+    <div class="modal-backdrop" id="checkoutBackdrop"></div><div class="checkout-panel"><button class="close-cart modal-close" id="closeCheckout" aria-label="إغلاق">×</button><span class="cart-overline">ONE LAST STEP</span><h2 id="checkoutTitle">لنجهّز طلبكِ</h2><p class="checkout-description">املئي بياناتك لإكمال تجربة الطلب التجريبية.</p>
+      <form id="checkoutForm"><label for="orderName">الاسم</label><input id="orderName" name="name" required minlength="2" placeholder="اسمك الكريم"><label for="orderPhone">رقم الجوال</label><input id="orderPhone" name="phone" type="tel" required pattern="[0-9+()\-\s]{8,18}" placeholder="05xxxxxxxx"><label for="orderAddress">عنوان التوصيل</label><textarea id="orderAddress" name="address" rows="2" required minlength="5" placeholder="المدينة والحي والعنوان"></textarea><div class="checkout-summary"><span>الإجمالي</span><strong id="checkoutTotal">0 ر.س</strong></div><button type="submit" class="button button-primary form-submit">تأكيد الطلب التجريبي <span>←</span></button><p class="form-note">لن يتم خصم أي مبلغ أو إرسال بياناتك إلى جهة خارجية.</p><p class="form-feedback" id="checkoutFeedback" role="status" hidden></p></form>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"><span>✓</span><span id="toastText">تمت الإضافة إلى السلة</span></div>
+  <script src="app.js"></script>
+</body>
+</html>
